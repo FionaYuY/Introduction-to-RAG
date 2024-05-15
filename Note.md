@@ -38,4 +38,6 @@ https://github.com/alfredodeza/learn-retrieval-augmented-generation/blob/76fa13c
 
 https://github.com/alfredodeza/learn-retrieval-augmented-generation/blob/76fa13c3ae059fb5f8a8e45450fdd3cdf9a3c8e9/examples/3-applied-rag/embeddings.ipynb
 
+# Create and use Embeddings
+https://hub.labs.coursera.org/connect/sharedtowtmdqw?forceRefresh=false&path=%2Fnotebooks%2Flearn-retrieval-augmented-generation%2Fexamples%2F2-embeddings%2Fcoursera-lab.ipynb&isLabVersioning=file-prep
 
