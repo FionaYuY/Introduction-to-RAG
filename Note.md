@@ -15,4 +15,23 @@
 
 https://github.com/alfredodeza/learn-retrieval-augmented-generation/blob/main/examples/1-managing-data/example.ipynb
 
+# Verifying embeddings and search
+- Some software needed in order to have this vector db search
+- import the needed libraries
+
+```
+from qdrant_client import models, QdrantClient
+from sentence_transformers import SentenceTransformer
+```
+- The 'SentenceTransformer' will give us the ability to do the encoding.
+- The encoding is needed and we'll use the 'all-MiniLM-L6-V2', and this will automatically downlaod the machine learning model locally so that we can do the tokenization to cretae the embeddings so that it goes into the vector db.
+- The 'QdrantClient' is an instance of the db
+- ```QdrantClient('memory')``` We're going to be able to use in memory database. We don't need to create a file based db or a netword based db.
+- Create collection: The collections will be able to reside within the db and when passing ceratin parameters.
+  + THe distance is to basically do a comparison and find what phrases frim what I'm searching will be closer to that data, the information that I'm going to be storing.
+- Vectorize: Upload everything into our vector db.
+- Search
+
+https://github.com/alfredodeza/learn-retrieval-augmented-generation/blob/76fa13c3ae059fb5f8a8e45450fdd3cdf9a3c8e9/examples/2-embeddings/embeddings.ipynb
+
 # 
