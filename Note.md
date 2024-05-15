@@ -41,3 +41,13 @@ https://github.com/alfredodeza/learn-retrieval-augmented-generation/blob/76fa13c
 # Create and use Embeddings
 https://hub.labs.coursera.org/connect/sharedtowtmdqw?forceRefresh=false&path=%2Fnotebooks%2Flearn-retrieval-augmented-generation%2Fexamples%2F2-embeddings%2Fcoursera-lab.ipynb&isLabVersioning=file-prep
 
+# External lab
+The examples for the Applied Rag notebook requires either an OpenAI API endpoint with a key or using a local LLM with Llamafile
+Recommend: using the Phi-2 model, which is about 2GB in size. You can download the model from the Llamafile repository and run it in your system:
+![螢幕擷取畫面 (710)](https://github.com/FionaYuY/Introduction-to-RAG/assets/151610467/f4337096-b6c6-42c5-b18f-f6011cda549a)
+![螢幕擷取畫面 (711)](https://github.com/FionaYuY/Introduction-to-RAG/assets/151610467/c652ed5f-3818-4b08-801a-47c7c70dddcc)
+requirements.txt : https://github.com/alfredodeza/learn-retrieval-augmented-generation/blob/76fa13c3ae059fb5f8a8e45450fdd3cdf9a3c8e9/requirements.txt
+
+# Quiz
+- Why is converting data to a dictionary format useful when creating a vector database for retrieval augmented generation?
+  + Converting to a dictionary maps fields like "text" to vectors needed for retrieval.
