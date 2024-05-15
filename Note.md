@@ -7,7 +7,7 @@
 - Pandas library
 - Qdrant: Software used for creating an in-memory vector database search, enabling efficient text retrieval and embedding storage.
 - Sentence transformers: A tool to encode sentences into numerical representations (embeddings) that can be compared using cosine similarity or other distance metrics.
-- Cosinge distance: A measure of similarity between two non-zero vectors in a multi-dimensional space, often used in text analysis and information retrieval.
+- Cosine distance: A measure of similarity between two non-zero vectors in a multi-dimensional space, often used in text analysis and information retrieval.
 
 # Mangage Data for embeddings
 - import the data into panda df
